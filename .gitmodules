@@ -1,0 +1,9 @@
+[submodule "src/poclbm"]
+	path = src/poclbm
+	url = https://github.com/m0mchil/poclbm.git
+[submodule "src/cgminer"]
+	path = src/cgminer
+	url = https://github.com/ckolivas/cgminer.git
+[submodule "src/pyopencl"]
+	path = src/pyopencl
+	url = http://git.tiker.net/trees/pyopencl.git
