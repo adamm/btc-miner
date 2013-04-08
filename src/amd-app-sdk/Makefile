@@ -5,7 +5,9 @@ url = http://download2-developer.amd.com/amd/APPSDK/$(pkg)
 all: $(pkg)
 
 clean:
-	rm $(pkg)
+	rm -f $(pkg)
 
 $(pkg):
 	wget $(url)
+
+.PHONY: clean

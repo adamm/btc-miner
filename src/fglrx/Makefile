@@ -5,7 +5,9 @@ url = http://www2.ati.com/drivers/linux/$(pkg)
 all: $(pkg)
 
 clean:
-	rm $(pkg)
+	rm -f $(pkg)
 
 $(pkg):
 	wget $(url)
+
+.PHONY: clean
