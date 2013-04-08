@@ -7,3 +7,6 @@
 [submodule "src/pyopencl"]
 	path = src/pyopencl
 	url = http://git.tiker.net/trees/pyopencl.git
+[submodule "src/adl3"]
+	path = src/adl3
+	url = https://github.com/mjmvisser/adl3
